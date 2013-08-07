@@ -1,3 +1,39 @@
-body {
-  background-color:gold;
+.peg {
+  height: 300px;
+  width: 25px;
+  background-color: brown;
+  margin: 125px;
+  float: left;
+}
+
+.box {
+  height: 25px;
+  width: 25px;
+  background: black;
+}
+
+.ring {
+  position: absolute;
+  height: 25px;
+}
+
+#one {
+  left:95px;
+  top: 186px;
+  width: 100px;
+  background: red;
+}
+
+#two {
+  left: 45px;
+  top: 264px;
+  width: 200px;
+  background: blue;
+}
+
+#three {
+  width: 300px;
+  left: 0;
+  top:343px;
+  background: green;
 }
